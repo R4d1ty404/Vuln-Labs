@@ -24,12 +24,12 @@
         <h4>2. Reflected XSS search bar in HTML tag attributes</h4>
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["form_type"] == "form2") {
-            $search_query = $_POST["Search_query"];
+            $search_query2 = $_POST["Search_query"];
         }
         ?>
         <form method="POST">
             <input type="hidden" name="form_type" value="form2">
-            <input type="text" placeholder="Search something..." name="Search_query" value="<?php echo $search_query;?>">
+            <input type="text" placeholder="Search something..." name="Search_query" value="<?php echo $search_query2;?>">
             <input type="submit" value="Submit Search">
         </form>
 
