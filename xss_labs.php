@@ -72,12 +72,12 @@
         if (file_exists($file_name)) {
             $comments = json_decode(file_get_contents($file_name), true);
 
-        
             if (is_array($comments) && !empty($comments)) {
                 foreach ($comments as $comment) {
                     echo '<div>';
-                    echo '<p><strong>Username:</strong> ' . $comment['username'] . '</p>';
-                    echo '<p><strong>Comment:</strong> ' . $comment['comment'] . '</p>';                    echo '</div><hr>';
+                    echo '<p>Username: ' . $comment['username'] . '</p>';
+                    echo '<p>Comment: ' . $comment['comment'] . '</p>';                    
+                    echo '</div><hr>';
                 }
             } else {
                 echo '<p>No comments yet.</p>';
