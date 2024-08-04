@@ -1,5 +1,5 @@
 # Vuln-Labs
-vulnerability labs made by me (Raditya), just to test my knowledge and research,
+vulnerability labs made by me, just to test my knowledge and research,
 also for my project for IDN-Pentest+ bootcamp
 
 If you want to use my code, feel free to use it, and if you can please share me your feed back about this lab
