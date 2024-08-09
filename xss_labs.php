@@ -6,6 +6,7 @@
     <body>
         <h1>Welcome to XSS Labs</h1>
         <p>Made By Raditya Perwira Putra</p>
+        <a href="index.php">GO BACK TO HOME</a>
         <h2>XSS Basic Example</h2>
 
         <h4>1. Reflected XSS search bar in between HTML tags</h4>
