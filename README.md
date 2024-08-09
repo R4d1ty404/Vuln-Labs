@@ -7,3 +7,4 @@ If you want to use my code, feel free to use it, and if you can please share me 
 NOTE: for xss_labs.php please add a JSON file called comments.json to store the comment data.
 
 Week 1: making xss vulnerability labs
+Week 2: making sqli vulnerability labs
